@@ -1,0 +1,92 @@
+/* Підключення шрифтів через google fonts */
+/* Inter */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+/* Poppins */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+
+/* Підключення шрифтів вручну */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    line-height: 1.46;
+}
+
+#project-information{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.title,
+.sub-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+.title{
+    font-size: 30px;
+    color: #37393F;
+    text-transform: capitalize;
+}
+
+.sub-title{
+    font-size: 20px;
+    color: #6B77E5;
+}
+
+.list-item{
+    font-weight: 500;
+    text-indent: 16px;
+}
+
+.big-block,
+.big-block p{
+    color: #000000;
+    text-indent: 40px;
+    
+}
+
+.big-block{
+    font-family: "Bergen Text", sans-serif;
+    font-weight: normal;
+}
+.block-1{
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: line-through;
+    font-family: "Bergen Text", sans-serif;
+    font-weight: 700;
+}
+
+.block-2 p{
+    text-decoration: overline;
+}
+.block-3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.block-4{
+    white-space: nowrap;
+}
+
+.block-1 .title,
+h3.sub-title{
+    text-align: center;
+    text-shadow: 1px 2px 10px #ff0000 ;
+}
+h3.sub-title{
+    color: aqua;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+

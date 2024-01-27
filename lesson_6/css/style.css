@@ -13,9 +13,10 @@ body{
 .jewelry-text{
     font-size: 20px;
     color: #474747;
-    padding-right: 38px;
     display: inline-block;
     max-width: 563px;
+    margin-right: 38px;
+    margin-bottom: 23px;
 }
 
 .jewelry-img{
@@ -31,29 +32,27 @@ img.woman{
    line-height: 1.4;
    max-width: 1180px;
    margin: auto;
-   padding-top: 10px;
    margin-bottom: 10px;
 }
 
 .jewelry h2.title{
-    margin-top: 23px;
     text-transform: uppercase;
     color: #D06B00;
     font-size: 28px;
+    padding-bottom: 13px;
     
 }
 
 .jewelry h3.sub-title{
-    margin-top: 13px;
     text-transform: capitalize;
     color: #0E333D;
     font-size: 59px;
     font-family: DM Serif Text;
+    padding-bottom: 25px;
 
 }
 
 .jewelry p{
-    margin-top: 25px;
     line-height: 1.8;
 }
 .consulting{
@@ -80,9 +79,9 @@ img.meeting{
     margin-bottom: 37px;
 }
 
-
-
-
+.why-us{
+    margin-bottom: 40px;
+}
 
 .consulting-title,
 .consulting-sub-title,
@@ -97,20 +96,21 @@ img.meeting{
 .consulting-title{
     color: #37393F;
     font-size: 30px;
-    padding-bottom: 3px;
     height: 86px;
-    padding-bottom: 3px;
+    margin-bottom: 3px;
 }
 
 .consulting-sub-title{
     color: #6B77E5;
     font-size: 20px;
-    padding-top: 42px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.consulting-text .block-1{
+    margin-bottom: 42px;
 }
 
 .benefits{
-    padding-top: 40px;
 }
 
 .benefits-text{
@@ -124,7 +124,7 @@ img.meeting{
 }
 
 .benefits-img{
-    padding-right: 29px;
+    margin-right: 29px;
 }
 
 .benefits-title{
@@ -138,9 +138,12 @@ img.meeting{
     font-size: 20px;
     margin-bottom: 21px;
 }
+
+
 .item{
-    margin: 21px 0px 30px 0px; 
+    padding-bottom: 30px;
 }
+
 
 .link{
     color: blue;
